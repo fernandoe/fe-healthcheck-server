@@ -1,0 +1,4 @@
+*.pyc
+.DS_Store
+.idea/
+source/db.sqlite3
