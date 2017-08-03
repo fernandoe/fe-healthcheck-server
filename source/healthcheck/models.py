@@ -1,3 +1,4 @@
+import requests
 from django.db import models
 from fe_core.models import UUIDModel
 
@@ -13,6 +14,13 @@ class Endereco(UUIDModel):
 
     def __str__(self):
         return self.url
+
+    def verificar(self):
+        r = requests.get(self.url)
+        Verificacao.objects.create(
+            endereco=self,
+            status=r.status_code
+        )
 
 
 class Verificacao(UUIDModel):
