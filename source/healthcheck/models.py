@@ -6,6 +6,14 @@ class Endereco(UUIDModel):
     url = models.URLField()
     ativo = models.BooleanField(default=True)
 
+    class Meta:
+        verbose_name = u'Endereço'
+        verbose_name_plural = u'Endereços'
+        ordering = ('url',)
+
+    def __str__(self):
+        return self.url
+
 
 class Verificacao(UUIDModel):
     OK_200 = 200
@@ -16,3 +24,11 @@ class Verificacao(UUIDModel):
     )
     endereco = models.ForeignKey(Endereco)
     status = models.IntegerField(choices=CHOICES_STATUS)
+
+    class Meta:
+        verbose_name = u'Verificação'
+        verbose_name_plural = u'Verificações'
+        ordering = ('endereco',)
+
+    def __str__(self):
+        return '{ENDERECO} ({STATUS})'.format(ENDERECO=self.endereco, STATUS=self.status)
