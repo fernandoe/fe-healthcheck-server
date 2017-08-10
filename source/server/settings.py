@@ -123,3 +123,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = 'fe_core.User'
+
+ADMINS = [
+    ('Fernando Espíndola', 'fer.esp@gmail.com'),
+]
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

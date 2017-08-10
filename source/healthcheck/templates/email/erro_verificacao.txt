@@ -1,0 +1,4 @@
+Erro ao acessar o endereço:
+
+URL: {{ url }}
+Status Code: {{ status_code }}

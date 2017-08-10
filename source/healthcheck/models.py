@@ -1,7 +1,11 @@
 import logging
 
 import requests
+from django.core.mail import mail_admins
 from django.db import models
+from django.db.models.signals import post_save
+from django.dispatch import receiver
+from django.template.loader import render_to_string
 from fe_core.models import UUIDModel
 
 log = logging.getLogger(__name__)
@@ -45,3 +49,15 @@ class Verificacao(UUIDModel):
 
     def __str__(self):
         return '{ENDERECO} ({STATUS})'.format(ENDERECO=self.endereco, STATUS=self.status)
+
+
+@receiver(post_save, sender=Verificacao)
+def verificacao_post_save(sender, instance, **kwargs):
+    if instance.status >= 400:
+        subject = '[HealthCheck] Erro ao acessar site/serviço'
+        context = {
+            'url': instance.endereco.url,
+            'status_code': instance.status
+        }
+        message = render_to_string('email/erro_verificacao.txt', context)
+        mail_admins(subject, message)
