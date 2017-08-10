@@ -131,3 +131,5 @@ ADMINS = [
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 ALLOWED_HOSTS = ['*']
+
+STATIC_ROOT = '/home/fems/web/healthcheck.fe.fernandoe.com/public/static'
