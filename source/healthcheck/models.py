@@ -1,6 +1,10 @@
+import logging
+
 import requests
 from django.db import models
 from fe_core.models import UUIDModel
+
+log = logging.getLogger(__name__)
 
 
 class Endereco(UUIDModel):
@@ -16,6 +20,7 @@ class Endereco(UUIDModel):
         return self.url
 
     def verificar(self):
+        log.debug("Verificando URL={URL}".format(URL=self.url))
         r = requests.get(self.url)
         Verificacao.objects.create(
             endereco=self,
