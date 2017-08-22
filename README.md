@@ -17,11 +17,11 @@ link abaixo para ver os vídeos sobre este projeto.
 
 ## Redes Sociais - Segue lá
 
-Uma das melhores formas de apoiar esse trabalho é curtir/seguir/assinar minhas redes sociais:
+Uma das melhores formas de apoiar esse trabalho é curtir/seguir/assinar/compartilhar minhas redes sociais:
 
 * https://fb.me/streaming.programming
 * https://twitter.com/feresp
 * https://www.twitch.tv/fernand0e
-* https://www.youtube.com/user/feresp
+* https://www.youtube.com/channel/UCyHuz50Ce8LuiHOj07y9ZIQ
 * https://github.com/fernandoe
 * https://fernandoe.com
