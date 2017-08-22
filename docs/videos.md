@@ -28,3 +28,8 @@
 ## Enviando emails quando uma verificalção de URL falhar
 
 [![Enviando emails quando uma verificalção de URL falhar](https://img.youtube.com/vi/e5zmTQUiKCM/0.jpg)](https://www.youtube.com/watch?v=e5zmTQUiKCM "Enviando emails quando uma verificalção de URL falhar")
+
+
+## Criando um domínio do DH e fazendo um deploy com git
+
+[![Criando um domínio do DH e fazendo um deploy com git](https://img.youtube.com/vi/fAGEuq-MpdA/0.jpg)](https://www.youtube.com/watch?v=fAGEuq-MpdA "Criando um domínio do DH e fazendo um deploy com git")
