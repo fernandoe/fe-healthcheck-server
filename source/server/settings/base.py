@@ -127,9 +127,3 @@ AUTH_USER_MODEL = 'fe_core.User'
 ADMINS = [
     ('Fernando Espíndola', 'fer.esp@gmail.com'),
 ]
-
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
-ALLOWED_HOSTS = ['*']
-
-STATIC_ROOT = '/home/fems/web/healthcheck.fe.fernandoe.com/public/static'
