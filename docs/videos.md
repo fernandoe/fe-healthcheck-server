@@ -33,3 +33,18 @@
 ## Criando um domínio do DH e fazendo um deploy com git
 
 [![Criando um domínio do DH e fazendo um deploy com git](https://img.youtube.com/vi/fAGEuq-MpdA/0.jpg)](https://www.youtube.com/watch?v=fAGEuq-MpdA "Criando um domínio do DH e fazendo um deploy com git")
+
+
+## Criando um cron job na Dreamhost para rodar a verificação das URLs
+
+[![Criando um cron job na Dreamhost para rodar a verificação das URLs](https://img.youtube.com/vi/q_Qtc2p5gEM/0.jpg)](https://www.youtube.com/watch?v=q_Qtc2p5gEM "Criando um cron job na Dreamhost para rodar a verificação das URLs")
+
+
+## Separação do arquivo de settings para suportar desenvolvimento e produção
+
+[![Separação do arquivo de settings para suportar desenvolvimento e produção](https://img.youtube.com/vi/bcJbXxK3tfM/0.jpg)](https://www.youtube.com/watch?v=bcJbXxK3tfM "Separação do arquivo de settings para suportar desenvolvimento e produção")
+
+
+## Criação do MySQL no DH e sua configuração de acesso com um arquivo .ini externo
+
+[![Criação do MySQL no DH e sua configuração de acesso com um arquivo .ini externo](https://img.youtube.com/vi/RFqXDaf0Ni4/0.jpg)](https://www.youtube.com/watch?v=RFqXDaf0Ni4 "Criação do MySQL no DH e sua configuração de acesso com um arquivo .ini externo")
