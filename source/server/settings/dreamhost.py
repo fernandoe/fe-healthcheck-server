@@ -21,3 +21,10 @@ DATABASES = {
         }
     }
 }
+
+EMAIL_HOST = config.get('email', 'EMAIL_HOST')
+SERVER_EMAIL = config.get('email', 'SERVER_EMAIL')
+EMAIL_HOST_USER = config.get('email', 'EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config.get('email', 'EMAIL_HOST_PASSWORD')
+EMAIL_PORT = config.get('email', 'EMAIL_PORT')
+EMAIL_USE_SSL = config.get('email', 'EMAIL_USE_SSL')
