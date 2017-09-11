@@ -127,3 +127,5 @@ AUTH_USER_MODEL = 'fe_core.User'
 ADMINS = [
     ('Fernando Espíndola', 'fer.esp@gmail.com'),
 ]
+
+LOGGING_APPNAME = 'fe-healthcheck-server'

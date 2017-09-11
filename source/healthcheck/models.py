@@ -1,6 +1,7 @@
 import logging
 
 import requests
+from django.conf import settings
 from django.core.mail import mail_admins
 from django.db import models
 from django.db.models.signals import post_save
@@ -8,7 +9,7 @@ from django.dispatch import receiver
 from django.template.loader import render_to_string
 from fe_core.models import UUIDModel
 
-log = logging.getLogger(__name__)
+log = logging.getLogger(settings.LOGGING_APPNAME)
 
 
 class Endereco(UUIDModel):
