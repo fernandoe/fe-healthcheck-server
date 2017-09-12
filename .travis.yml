@@ -9,7 +9,7 @@ after_success:
   - chmod 600 deploy-key
   - mv deploy-key ~/.ssh/id_rsa
   - git remote add deploy ssh://$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
-  - git push deploy
+  - git push deploy master
 before_install:
   - openssl aes-256-cbc -K $encrypted_d62a6a9f7e58_key -iv $encrypted_d62a6a9f7e58_iv
     -in sandbox/certificates/id_rsa_fe_travis.enc -out deploy-key -d
