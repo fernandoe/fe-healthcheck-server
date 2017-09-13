@@ -8,7 +8,7 @@ createsuperuser:
 	./source/manage.py createsuperuser
 
 test:
-	./source/manage.py test
+	cd ./source && pytest
 
 rodar_verificacoes:
 	./source/manage.py rodar_verificacoes
