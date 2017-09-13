@@ -6,6 +6,7 @@ install:
 script:
   - make test
 after_success:
+  - coveralls
   - chmod 600 deploy-key
   - mv deploy-key ~/.ssh/id_rsa
   - git remote add deploy ssh://$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
