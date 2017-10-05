@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/fernandoe/fe-healthcheck-server.svg?branch=master)](https://travis-ci.org/fernandoe/fe-healthcheck-server)
 [![Coverage Status](https://coveralls.io/repos/github/fernandoe/fe-healthcheck-server/badge.svg?branch=master)](https://coveralls.io/github/fernandoe/fe-healthcheck-server?branch=master)
+[![Requirements Status](https://requires.io/github/fernandoe/fe-healthcheck-server/requirements.svg?branch=master)](https://requires.io/github/fernandoe/fe-healthcheck-server/requirements/?branch=master)
 
 ## Descrição
 

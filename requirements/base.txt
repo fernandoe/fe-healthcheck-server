@@ -1,5 +1,5 @@
-django==1.11.3
-requests==2.18.2
+django==1.11.5
+requests==2.18.4
 
 # -e ../django-fe-core/
 git+https://github.com/fernandoe/django-fe-core.git@release/0.1.0#egg=django-fe-core
